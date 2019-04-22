@@ -68,7 +68,7 @@ save(list = ls(all = TRUE), file = "data02.RData")
 rm(list = ls ())
 
 #Carrega de volta os objetos que estavam na memória
-load("save_image_example.RData")
+load("data02.RData")
 
 #----------------save-------------------------#
 
