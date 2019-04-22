@@ -1,3 +1,3 @@
-"primeiro "palavra" campo", "segundo "palavra" campo"
-"Valor 01 "para" o campo 01", "Valor 02 "para" o campo 01"
-"Valor 02 "para" o campo 01", "Valor 02 "para" o campo 02"
+Campo \" 1, Campo " 2
+Valor 01 \" o campo 01, Valor 02 \" o campo 01
+Valor 02 \" o campo 01, Valor 02 \" o campo 02

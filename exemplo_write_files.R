@@ -15,7 +15,7 @@ exemplo_df <- data.frame(coluna_de_strings = c("primeira string", "segunda strin
 
 #Exemplo com col.names = TRUE
 #Vai escrever o nome das colunas e das linhas no arquivo.
-write.table(exemplo_df, file = "write_table_exemplo01.csv", sep = ",", col.names = TRUE, 
+write.table(exemplo_df, file = "write_table_exemplo_01.csv", sep = ",", col.names = TRUE, 
             qmethod = "double")
 
 #Exemplo com row.names = FALSE, col.names = False
@@ -28,7 +28,8 @@ write.table(exemplo_df, file = "write_table_exemplo02.csv", sep = ",", row.names
 rm(list = ls ())
 
 #Cria o dataframe chamdo df com 
-df <- data.frame(a = "a \" quote", b = pi)
+
+df <- data.frame(a = "valor de a \" com aspas incorporada", b = pi)
 
 write.table(df, file = "qmethod_test.csv", sep = ",", col.names = NA,
             qmethod = "double")
