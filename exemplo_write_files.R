@@ -59,14 +59,17 @@ rm(list = ls ())
 load("save_image_example.RData")
 #remove os objetos que estão na memória
 
-#----usando o save() ao invés do save.image()
-rm(list = ls ())
+#----Mesma coisa só que usando o save ao invés do save.
 
 #Mesma coisa do save.image()
 save(list = ls(all = TRUE), file = "data02.RData")
 
+#Limpa a memória
+rm(list = ls ())
+
 #Carrega de volta os objetos que estavam na memória
 load("save_image_example.RData")
+
 #----------------save-------------------------#
 
 #Limpa a memória
