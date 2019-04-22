@@ -7,7 +7,7 @@ getwd()
 #Define o path do work directory
 setwd("C:/Users/toti.cavalcanti/Documents/MyProjects/R_projects/curso_r/")
 
-#                  file      header  separador
+
 df <- read.table(file = "drinks.txt", header = TRUE, sep = ",", quote = "\"", 
                  na.strings = TRUE, strip.white = TRUE, comment.char = "$",
                  blank.lines.skip = TRUE)
