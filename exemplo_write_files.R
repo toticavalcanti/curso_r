@@ -20,7 +20,7 @@ write.table(exemplo_df, file = "write_table_exemplo_01.csv", sep = ",", col.name
 
 #Exemplo com row.names = FALSE, col.names = False
 #Não vai escrever nem o nome das colunas nem das linhas no arquivo
-write.table(exemplo_df, file = "write_table_exemplo02.csv", sep = ",", row.names = FALSE, 
+write.table(exemplo_df, file = "write_table_exemplo_02.csv", sep = ",", row.names = FALSE, 
             col.names = FALSE, qmethod = "double")
 
 #Outro exemplo para explicar o parâmetro qmethod do write.table
