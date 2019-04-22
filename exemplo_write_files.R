@@ -32,7 +32,7 @@ rm(list = ls ())
 df <- data.frame(a = "valor de a \" com aspas incorporada", b = pi)
 
 write.table(df, file = "qmethod_test.csv", sep = ",", col.names = NA,
-            qmethod = "double")
+            qmethod = "escape")
                          
             
 #------------write------------------#
@@ -43,7 +43,7 @@ mat <- matrix(1:10, ncol = 5)
 
 #Cria e escreve no arquivo dados_mat.txt a matriz mat,
 #usando tabulação como separador
-write(x, file = "dados_mat.txt", sep = "\t")
+write(mat, file = "dados_mat.txt", sep = "\t")
 
 #--------save.image, save e load(".RData")---------------#
 
