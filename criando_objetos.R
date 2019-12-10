@@ -71,9 +71,9 @@ n
 
 data.frame(x, y)
 
-data.frame (x, n)
+df <- data.frame(x, n)
 
-df = data.frame (A1 = x, A2 = n)
+df <- data.frame (A1 = x, A2 = n)
 df
 
 df <- data.frame (A1 = x, A2 = n, row.names = c("line 01", "line 02", "line 03", "line 04"))
