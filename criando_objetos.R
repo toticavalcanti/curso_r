@@ -9,7 +9,7 @@ vector(mode = "logical", length = 4)
 #Vetor de caracter
 character(5)
 #Outra forma de criar vetor lógico
-logical(4)
+logical(3)
 #Vetor numperico
 numeric(4) 
 
@@ -30,7 +30,7 @@ factor(1:3, labels=c("A", "B", "C"))
 factor(1:5, exclude=4)
 
 #cria um vetor como entrada e atribui a data
-data <- c("East","West","East","North","North","East","West","West","West","East","North")
+data <- c("East","West","East","North","North","East","West","West","West","East","South")
 factor_data <- factor(data)
 
 categories <- factor(c(2, 4), levels=2:5)
